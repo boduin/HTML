@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1><b><i><u>Student Data Form</u></i></b></h1>
+<form>
+<label for="first name">first name:</label>
+<input type="text" recquired name="first name">
+<br>
+<label for="last name">last name:</label>
+<input type="text" recquired name="last name">
+<br>
+<label for="email">Email:</label>
+<input type="email" name="email"recquired>
+<br>
+<label for="Age">age:</label>
+<input type="number" recquired name="age" max="60" min="15">
+<br>
+<label>Gender</label>
+<input type="radio" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" value="female">
+<label for="female">Female</label>
+
+<br>
+<label>Subject interest</label>
+<input type="checkbox" name="subject">
+<label for="maths">maths</label>
+<input type="checkbox" name="subject">
+<label for="english">english</label>
+<input type="checkbox" name="subject">
+<label for="chemistry">chemistry</label>
+
+<br>
+<label for="County">County</label>
+<select name="county">
+    <option value="Nairobi">Nairobi</option>
+    <option value="Kisumu">Kisumu</option>
+    <option value="Mombasa">Mombasa</option>
+    <option value="Nyeri">Nyeri</option>
+</select>
+
+<br>
+<label for="about">More About You</label>
+<textarea name="about" rows="4" cols="50"></textarea>
+
+<br>
+<label for="Password">Password</label>
+<input type="password" name="pasword" required>
+<br>
+<label>DOB</label>
+<input type="date">
+
+<br>
+<label>Grade</label>
+<input type="range" min="80" max="100">
+
+<br>
+<label>Favorite color</label>
+<input type="color">
+<br>
+<button>submit</button>
+</form>
+</body>
+</html>
